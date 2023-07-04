@@ -1,0 +1,44 @@
+
+.header{
+  padding-top: 100px;
+  color: black;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.3cm;
+  }
+
+  .adivinanza p{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+    letter-spacing: 0.3cm;
+  }
+
+.habitacionimg{float: center;
+width: 70%;
+padding: auto;}
+.index{
+  text-align: center;
+}
+.index h2{
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  letter-spacing: 0.3cm;
+}
+
+.introvic{
+  text-align: left;
+}
+.introvic img{
+float: center;
+width: 70%;
+
+}

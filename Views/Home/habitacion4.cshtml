@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Habitacion4";
+}
+
+    <div class="header"><h1>Habitacion 4</h1></div> 
+<div class="adivinanza">
+<p>
+Está entre la playa y mar¿Qué es?
+</p>
+</div>
+
+<form method="post" action='@Url.Action("Habitacion","Home")'>
+     <div class="form-group">
+        <input  class="form-control" type="text" name="clave" autocomplete="off" required> 
+        <input  type="hidden" name="sala" value="4"> 
+    </div>
+    <div class="form-group mt-2">
+        <input  class="btn btn-success"  type="submit" name="">
+        <button class="btn btn-secondary" type="button" onclick="alert('Pista 1: Mirá bien las letras')">Pista 1</button>
+        <button class="btn btn-secondary" type="button" onclick="alert(' Pista 2: La clave está a la vista. Lee el acertijo')">Pista 2</button>
+    </div>
+</form>
+<div class="habitacionimg">
+    <img src="/img/letras.PNG">
+</div>
+
+ @ViewBag.Error
+
